@@ -45,7 +45,7 @@ GLvoid doNothing() {
 
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluPerspective(65.0,800/600,1,100);
+    gluPerspective(65.0,800.0/600,1,100);
 
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
