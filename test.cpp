@@ -87,8 +87,6 @@ void motion(int x, int y) {
     while(iters && iters-- && phi < 0)    phi += 2*pi;
     while(iters && iters-- && uphi > 2*pi) uphi -= (2*pi);
     while(iters && iters-- && uphi < 0)    uphi += 2*pi;
-
-    cout << phi << " " << theta << endl;
 }
 
 void key(int c, int x, int y) {
